@@ -3,8 +3,11 @@
 #+OPTIONS: ^:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
-anatoliy.bilenko (@T) gmail (D@T) com
 
+
+* CONTACTS
+ - anatoliy.bilenko (@T) gmail (D@T) com
+ - linked-in: https://www.linkedin.com/in/anatoliy-bilenko-4367055/
 
 * BACKGROUND
 - Linux systems programmer with some experience in Linux kernel;
@@ -19,17 +22,6 @@ anatoliy.bilenko (@T) gmail (D@T) com
 
 * EXPERIENCE
 
-** NOTES
-- Skipped hardware-related experience;
-- Skipped projects before 2006 (mostly hardware related in aviation
-  and telecommunication);
-- Started professional career in 2002;
-- This CV does not include precise and full list of completed
-  projects;
-- At least several significant career aspects cannot be covered due to
-  NDAs.
-
-
 ** 2011-now: Distributed object store
  *Company:* SEAGATE/XYRATEX
 
@@ -43,14 +35,14 @@ anatoliy.bilenko (@T) gmail (D@T) com
 
  Technologies: C/asm/python/bash/various cluster hardware, network and storage controllers.
 
- - *2020 - now:* Distributed transaction management team lead (4 engineers).
- - *2019 - now:* Performance team lead (8-15 engineers).
+ - *2020 - now:* Distributed transaction management team lead (4 engineers);
+ - *2019 - 2020:* Performance team lead (8-15 engineers);
  - RAID NxPxK library design and implementation;
  - Distributed configuration component implementation;
  - Preemptive locking primitive design and implementation;
- - "Parity-math" component as a part of SNS-repair (from HLD to TESTING).
- - HLD and DLD development of "rpc-layer-core" component.
- - Misc. tasks from CODE to TESTING like lib improvement, etc.
+ - "Parity-math" component as a part of SNS-repair (from HLD to TESTING);
+ - HLD and DLD development of "rpc-layer-core" component;
+ - Misc. tasks from CODE to TESTING like lib improvement, etc;
  - Transaction engine component design and implementation;
  - Designed implementation plan for the transaction engine integration
    (overall work was around ~5k hours);
@@ -66,15 +58,16 @@ anatoliy.bilenko (@T) gmail (D@T) com
    integration (an alternative was to rewrite the whole project code
    base);
  - Distributed transaction manager detailed level design (high level
-   design was proposed by the architect).
+   design was proposed by the architect);
  - Different kinds of library algorithms and improvements mostly
    related to parallel and asynchronous programming (ex:
    parallel_for() implementation, async termination implementation,
-   etc).
- - Different kinds of scientific work like system performance
-   modeling (queuing theory).
- - Designed and implemented distributed profiler.
- - Designed and lead implementation of the cluster-wide performance harness (telemetry).
+   etc);
+ - Different kinds of scientific work like system performance modeling
+   (queuing theory);
+ - Designed and implemented distributed profiler;
+ - Designed and lead implementation of the cluster-wide performance
+   harness (telemetry).
 
 
 ** 2009-2011: Face detection and recognition engine
@@ -145,6 +138,23 @@ Technologies:
    primitives) and optimization for target device and platform (ARM9 /
    QNX).
 
+
+** 2002-2006: Hardware related projects
+
+- This part of CV does not include precise and full list of completed
+  projects;
+
+- Hardware-related experience mostly in airspace and
+  telecommunication;
+
+- Software and hardware for sensors and actuators, digital engine
+  control systems, telemetry systems in airspace domain.
+
+- Software and hardware components for telephone station switch.
+
+- At least several significant career aspects cannot be covered due to
+  NDAs.
+
 * EDUCATION
  - Odessa National Polytechnic University, 2001 - 2007,
    Master of Science in EECS. GPA: 98/100;
@@ -153,7 +163,6 @@ Technologies:
    computing systems by means of new algorithmic and structural
    organization".
 * COMMUNITY
-
 - Provided lectures on "Processor design" read in Odessa National
   Polytechnic University, 2009-2015. My role: volunteer, leader,
   organizer;
