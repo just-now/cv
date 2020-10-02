@@ -1,0 +1,163 @@
+#+TITLE: Anatoliy Bilenko
+#+AUTHOR: Anatoliy Bilenko
+#+OPTIONS: ^:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+
+anatoliy.bilenko (@T) gmail (D@T) com
+
+
+* BACKGROUND
+- Linux systems programmer with some experience in Linux kernel;
+- Leading and mentoring people;
+- Fluent in C/C++, assembly, bash, python;
+- Distributed systems;
+- Telecommunications and protocols;
+- Statistics, Data mining, Machine Learning, Computer vision, DSP;
+- Discrete event simulation;
+- Solution-wide performance debugging;
+- Open source contributor.
+
+* EXPERIENCE
+
+** NOTES
+- Skipped hardware-related experience;
+- Skipped projects before 2006 (mostly hardware related in aviation
+  and telecommunication);
+- Started professional career in 2002;
+- This CV does not include precise and full list of completed
+  projects;
+- At least several significant career aspects cannot be covered due to
+  NDAs.
+
+
+** 2011-now: Distributed object store
+ *Company:* SEAGATE/XYRATEX
+
+ Remote work, globally distributed team.
+
+ https://github.com/Seagate/cortx-motr
+
+ Involved into develpement of distributed object storage system
+ designed for great efficiency, massive capacity, and high
+ HDD-utilization.
+
+ Technologies: C/asm/python/bash/various cluster hardware, network and storage controllers.
+
+ - *2020 - now:* Distributed transaction management team lead (4 engineers).
+ - *2019 - now:* Performance team lead (8-15 engineers).
+ - RAID NxPxK library design and implementation;
+ - Distributed configuration component implementation;
+ - Preemptive locking primitive design and implementation;
+ - "Parity-math" component as a part of SNS-repair (from HLD to TESTING).
+ - HLD and DLD development of "rpc-layer-core" component.
+ - Misc. tasks from CODE to TESTING like lib improvement, etc.
+ - Transaction engine component design and implementation;
+ - Designed implementation plan for the transaction engine integration
+   (overall work was around ~5k hours);
+ - Designed and implemented one of the “RUM Conjecture” persistent
+   structures;
+ - Designed approaches (based on existing but with significant project
+   specifics) allowing to increase parallelism level for storage
+   structures of transaction engine;
+ - Performance tuning and optimization in different contexts: from
+   application to system-wide;
+ - Page Daemon design and implementation;
+ - Designed implementation plan for the Page Daemon component
+   integration (an alternative was to rewrite the whole project code
+   base);
+ - Distributed transaction manager detailed level design (high level
+   design was proposed by the architect).
+ - Different kinds of library algorithms and improvements mostly
+   related to parallel and asynchronous programming (ex:
+   parallel_for() implementation, async termination implementation,
+   etc).
+ - Different kinds of scientific work like system performance
+   modeling (queuing theory).
+ - Designed and implemented distributed profiler.
+ - Designed and lead implementation of the cluster-wide performance harness (telemetry).
+
+
+** 2009-2011: Face detection and recognition engine
+
+ *Company:* VIEWDLE, Kiev
+
+ SENIOR SOFTWARE ENGINEER
+
+ SENIOR RESEARCH (CV/DSP) ENGINEER
+
+Technologies:
+ Technologies: C++/matlab/opencl/opencv
+
+- Responsible for tuning of Viewdle's core algorithms and
+  implementation of processing engine for platforms containing
+  GPU. Responsible for engine and algorithms rewriting, deep code
+  optimization. Provide quality engine work and quality engine and
+  algorithms code.
+
+- Responsible for all development steps of new light-independent
+  normalization algorithms for Viewdle engine (modeling, development,
+  implementation, tuning, testing, integration).  Viewdle engine is a
+  bunch of core face detection algorithms and provides clean APIs for
+  further integration. It can operate as a part of complex system over
+  different hardware/software platforms.
+
+
+** 2007-2009: Emergency Call controller
+
+ *Company:* LUXOFT/BAYMARK, Odessa
+
+ SENIOR EMBEDDED ENGINEER
+
+ Technologies: C++/RTOS/VME/QNX
+
+- Provided technical leadership to a team of three
+  developers. Monitored progress and managed priorities to ensure
+  timely delivery. Responsible for design, implementation, debugging,
+  documenting and SCM (Software Configuration Management) of parts of
+  telecommunication emergency system, a part of embedded real-time
+  safety-critical application for automotive industry.
+
+- Emergency Call (eCall) controller works as a part of automotive HSS
+  (Human Safety System). It interacts with most of control systems of
+  a vehicle. eCall system is based on GSM-module with shared
+  application processor. The main goal of eCall is vehicle data
+  collection, sending current vehicle information to service-centers
+  and making emergency calls in accident states.
+
+
+** 2006-2007: Graphical rasterizer library
+
+  *Company:* LUXOFT, Odessa
+
+  SOFTWARE ENGINEER
+
+  Technologies: C++/RTOS/VME/QNX
+
+ - Responsible for implementation, documentation, debugging and SCM
+   (Software Configuration Management). Designed cross-platform
+   software capable of running on Win32 and QNX operating systems and
+   various hardware architectures (x86 and ARM9).
+
+ - Graphical rasterizer module works as a part of a portable navigation
+   device. It interacts with positioning module and draws current
+   2d-map view. The main feature of graphic rasterizer is design and
+   application of fast computer-graphics algorithms (drawing base
+   primitives) and optimization for target device and platform (ARM9 /
+   QNX).
+
+* EDUCATION
+ - Odessa National Polytechnic University, 2001 - 2007,
+   Master of Science in EECS. GPA: 98/100;
+ - Odessa National Polytechnic University, 2008 - 2013,
+   PhD in EECS: "Methods of performance increase in reconfigurable
+   computing systems by means of new algorithmic and structural
+   organization".
+* COMMUNITY
+
+- Provided lectures on "Processor design" read in Odessa National
+  Polytechnic University, 2009-2015. My role: volunteer, leader,
+  organizer;
+- Provided lectures on "Compiler design" read in Odessa National
+  Polytechnic University, 20013-2016. My role: volunteer, leader,
+  organizer;
+- Elm study group.
