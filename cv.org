@@ -163,10 +163,8 @@ Technologies:
    computing systems by means of new algorithmic and structural
    organization".
 * COMMUNITY
-- Provided lectures on "Processor design" read in Odessa National
-  Polytechnic University, 2009-2015. My role: volunteer, leader,
-  organizer;
-- Provided lectures on "Compiler design" read in Odessa National
-  Polytechnic University, 20013-2016. My role: volunteer, leader,
-  organizer;
+
+- Provided lectures on "Processor design" and "Compiler design" read
+  in Odessa National Polytechnic University, 2009-2015. My role:
+  volunteer, leader, organizer;
 - Elm study group.
