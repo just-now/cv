@@ -37,6 +37,11 @@
 
  - *2020 - now:* Distributed transaction management team lead (4 engineers);
  - *2019 - 2020:* Performance team lead (8-15 engineers);
+ - *2018 - now:* A part of architectural group. Software product
+   design, including requirements gathering, use-case definition,
+   milestone planning, and integration with complementary
+   subsystems. Communication of technical decisions, development plans
+   to software developers, team leads, product management.
  - RAID NxPxK library design and implementation;
  - Distributed configuration component implementation;
  - Preemptive locking primitive design and implementation;
@@ -168,3 +173,5 @@ Technologies:
   in Odessa National Polytechnic University, 2009-2015. My role:
   volunteer, leader, organizer;
 - Elm study group.
+- [[https://www.youtube.com/watch?v=FFTi2XNFb7A][Seagate | Meet the Architect – CORTX Observability with Anatoily Bilenko]]
+- [[https://www.youtube.com/watch?v=ujyIsCt6bbM][Seagate | Meet the Architect – CORTX DTM: Resiliency in Distributed Systems]]
