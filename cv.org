@@ -1,31 +1,62 @@
 #+TITLE: Anatoliy Bilenko
-#+AUTHOR: Anatoliy Bilenko
 #+OPTIONS: ^:nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" href="tufte.css" type="text/css" />
 
 
 
 * CONTACTS
- - anatoliy.bilenko (@T) gmail (D@T) com
- - linked-in: https://www.linkedin.com/in/anatoliy-bilenko-4367055/
+ - anatoliy.bilenko@gmail.com
+ - [[https://www.linkedin.com/in/anatoliy-bilenko-4367055/][linkedin]]
+ - Location: Europe
 
 * BACKGROUND
 - Linux systems programmer with some experience in Linux kernel;
 - Leading and mentoring people;
-- Fluent in C/C++, assembly, bash, python;
+- Fluent in C/C++, assembly, bash, python, Go;
 - Distributed systems;
 - Telecommunications and protocols;
-- Statistics, Data mining, Machine Learning, Computer vision, DSP;
 - Discrete event simulation;
 - Solution-wide performance debugging;
+- Statistics, Data mining, Machine Learning, Computer vision, DSP;
 - Open source contributor.
 
-* EXPERIENCE
 
-** 2011-now: Distributed object store
- *Company:* SEAGATE/XYRATEX
+* FreedomFI/Nova-Labs -- LEAD SWE, ARCHITECT
+* 2022-now
 
- Remote work, globally distributed team.
+ https://github.com/magma/
+
+ Lead development of Wi-Fi offload solution.
+ Involved into develpement of telecom core frameworks such as magma
+ designed for enabling experienced users to run own mini-telecom
+ operator.
+
+ Software product design, including requirements gathering, use-case
+ definition, milestone planning, and integration. Communication of
+ technical decisions, development plans to software developers,
+ product management.
+
+ - Wi-Fi offload team lead;
+ - Designed and implemented smoothless LTE to Wi-Fi offloading;
+ - Designed and implemented security workflow for Wi-Fi hotspots,
+   including implementation of TrustZone kernel module and trustlet,
+   openssl RSA engine;
+ - Prototyped inbound roaming feature.
+
+ Technologies: EAP-AKA, EAP-TLS, Passpoint 2.0, Radius, Radsec,
+ Diameter, M-TLS, Wi-Fi, sWX, S8, S5, S11, Gx, Gy, OpenWiFi TIP,
+ Radiator, Radsecoroxy, OpenWRT, TrustZone, openssl, Open vSwitch,
+ OpenFlow, AWS, docker, k8s, HashiCorp vault (CA), YateHSS, C, C++,
+ Go, python.
+
+
+* SEAGATE/XYRATEX -- LEAD SWE, ARCHITECT
+* 2011-2022
+
+ Distributed object store. Remote work, globally distributed team.
 
  https://github.com/Seagate/cortx-motr
 
@@ -33,11 +64,14 @@
  designed for great efficiency, massive capacity, and high
  HDD-utilization.
 
- Technologies: C/asm/python/bash/various cluster hardware, network and storage controllers.
+ Technologies: C, asm, python, bash, various cluster hardware, network
+               and storage controllers such as Mellanox Connectx-5,
+               Seagate Exos X 5U84, Supermicro TR4, PCI busses, HBAs,
+               simd.
 
- - *2020 - now:* Distributed transaction management team lead (4 engineers);
- - *2019 - 2020:* Performance team lead (8-15 engineers);
- - *2018 - now:* A part of architectural group. Software product
+ - 2020 - 2022: Distributed transaction management team lead (4 engineers);
+ - 2019 - 2020: Performance team lead (8-15 engineers);
+ - 2018 - 2022: A part of architectural group. Software product
    design, including requirements gathering, use-case definition,
    milestone planning, and integration with complementary
    subsystems. Communication of technical decisions, development plans
@@ -46,13 +80,12 @@
  - Distributed configuration component implementation;
  - Preemptive locking primitive design and implementation;
  - "Parity-math" component as a part of SNS-repair (from HLD to TESTING);
- - HLD and DLD development of "rpc-layer-core" component;
+ - HLD and DLD development of "rpc-layer" component;
  - Misc. tasks from CODE to TESTING like lib improvement, etc;
  - Transaction engine component design and implementation;
  - Designed implementation plan for the transaction engine integration
    (overall work was around ~5k hours);
- - Designed and implemented one of the “RUM Conjecture” persistent
-   structures;
+ - Designed and implemented btree persistent structure;
  - Designed approaches (based on existing but with significant project
    specifics) allowing to increase parallelism level for storage
    structures of transaction engine;
@@ -73,105 +106,64 @@
  - Designed and implemented distributed profiler;
  - Designed and lead implementation of the cluster-wide performance
    harness (telemetry).
+ - Data/metadata corruption debugging in distributed system.
 
 
-** 2009-2011: Face detection and recognition engine
+* VIEWDLE, Kiev -- SENIOR SWE (CV/DSP)
+* 2009-2011
 
- *Company:* VIEWDLE, Kiev
+ Face detection and recognition engine. VIEWDLE was bought by
+ Google/Motorola Mobility.
 
- SENIOR SOFTWARE ENGINEER
-
- SENIOR RESEARCH (CV/DSP) ENGINEER
-
-Technologies:
- Technologies: C++/matlab/opencl/opencv
-
-- Responsible for tuning of Viewdle's core algorithms and
-  implementation of processing engine for platforms containing
-  GPU. Responsible for engine and algorithms rewriting, deep code
-  optimization. Provide quality engine work and quality engine and
-  algorithms code.
-
-- Responsible for all development steps of new light-independent
-  normalization algorithms for Viewdle engine (modeling, development,
-  implementation, tuning, testing, integration).  Viewdle engine is a
-  bunch of core face detection algorithms and provides clean APIs for
-  further integration. It can operate as a part of complex system over
-  different hardware/software platforms.
+ Technologies: C++, matlab, opencl, opencv, intel tbb, sse, neon, linux.
 
 
-** 2007-2009: Emergency Call controller
+* LUXOFT, Odessa --  SENIOR EMBEDDED ENGINEER
+* 2007-2009
 
- *Company:* LUXOFT/BAYMARK, Odessa
+ Emergency Call controller.
 
- SENIOR EMBEDDED ENGINEER
-
- Technologies: C++/RTOS/VME/QNX
-
-- Provided technical leadership to a team of three
-  developers. Monitored progress and managed priorities to ensure
-  timely delivery. Responsible for design, implementation, debugging,
-  documenting and SCM (Software Configuration Management) of parts of
-  telecommunication emergency system, a part of embedded real-time
-  safety-critical application for automotive industry.
-
-- Emergency Call (eCall) controller works as a part of automotive HSS
-  (Human Safety System). It interacts with most of control systems of
-  a vehicle. eCall system is based on GSM-module with shared
-  application processor. The main goal of eCall is vehicle data
-  collection, sending current vehicle information to service-centers
-  and making emergency calls in accident states.
+ Technologies: C++, RTOS, VME, QNX.
 
 
-** 2006-2007: Graphical rasterizer library
+* LUXOFT, Odessa -- SWE
+* 2006-2007
 
-  *Company:* LUXOFT, Odessa
+  Graphical rasterizer library.
 
-  SOFTWARE ENGINEER
+  Technologies: C++, RTOS, VME, QNX.
 
-  Technologies: C++/RTOS/VME/QNX
-
- - Responsible for implementation, documentation, debugging and SCM
-   (Software Configuration Management). Designed cross-platform
-   software capable of running on Win32 and QNX operating systems and
-   various hardware architectures (x86 and ARM9).
-
- - Graphical rasterizer module works as a part of a portable navigation
-   device. It interacts with positioning module and draws current
-   2d-map view. The main feature of graphic rasterizer is design and
-   application of fast computer-graphics algorithms (drawing base
-   primitives) and optimization for target device and platform (ARM9 /
-   QNX).
-
-
-** 2002-2006: Hardware related projects
+* HARDWARE PROJECTS
+* 2002-2006
 
 - This part of CV does not include precise and full list of completed
   projects;
-
 - Hardware-related experience mostly in airspace and
   telecommunication;
-
 - Software and hardware for sensors and actuators, digital engine
   control systems, telemetry systems in airspace domain.
-
 - Software and hardware components for telephone station switch.
 
-- At least several significant career aspects cannot be covered due to
-  NDAs.
+  Technologies: AVR, LPC2100, ATSAM4LC4C, MPC555, Altera Cyclone IV
+  EP4CE6, Xilinx Spartan 3E XC3S500E, PCB manufacturing.
+
+* PUBLICATIONS
+- US PATENT · [[https://patents.google.com/patent/US20230035666A1][US390999147]] · ANOMALY DETECTION IN STORAGE SYSTEMS · Issued Feb 2, 2023;
+- US PATENT · [[https://patents.google.com/patent/US11442715B1/en?inventor=Anatolii+Bilenko][US11442715B1]] · ASYNCHRONOUS FRAMEWORK · Issued Sep 13, 2022;
+- PUBLICATION · [[https://scholar.google.com/citations?view_op=view_citation&hl=th&user=j5r-Y28AAAAJ&citation_for_view=j5r-Y28AAAAJ:Y0pCki6q_DkC][GRAPH PARTITIONING METHODS FOR COMPUTATIONS IN RECONFIGURABLE SYSTEMS]] · Issued 2012;
+- For full list of publications follow to [[https://scholar.google.com/citations?user=j5r-Y28AAAAJ&hl=th][Google Scholar]] or PhD thesis [[https://github.com/just-now/cv/blob/main/aref.pdf][annotation]].
 
 * EDUCATION
- - Odessa National Polytechnic University, 2001 - 2007,
-   Master of Science in EECS. GPA: 98/100;
+ - Odessa National Polytechnic University, 2001 - 2007, Master of
+   Science in EECS. GPA: 98/100. Thesis: "Classification of wavelet
+   functions";
  - Odessa National Polytechnic University, 2008 - 2013,
-   PhD in EECS: "Methods of performance increase in reconfigurable
+   PhD in EECS. [[https://github.com/just-now/cv/blob/main/aref.pdf][Thesis]]: "Methods of performance increase in reconfigurable
    computing systems by means of new algorithmic and structural
    organization".
 * COMMUNITY
-
-- Provided lectures on "Processor design" and "Compiler design" read
-  in Odessa National Polytechnic University, 2009-2015. My role:
-  volunteer, leader, organizer;
-- Elm study group.
-- [[https://www.youtube.com/watch?v=FFTi2XNFb7A][Seagate | Meet the Architect – CORTX Observability with Anatoily Bilenko]]
-- [[https://www.youtube.com/watch?v=ujyIsCt6bbM][Seagate | Meet the Architect – CORTX DTM: Resiliency in Distributed Systems]]
+- [[https://www.youtube.com/watch?v=FFTi2XNFb7A][Seagate | Meet the Architect – CORTX Observability with Anatoily Bilenko]];
+- [[https://www.youtube.com/watch?v=ujyIsCt6bbM][Seagate | Meet the Architect – CORTX DTM: Resiliency in Distributed Systems]];
+- Provided lectures on "Processor design" and "[[https://github.com/just-now/slisp/][Compiler design]]" read
+  in Odessa National Polytechnic University, 2009-2015, 2021-2023.
+  My role: volunteer, leader, organizer.
