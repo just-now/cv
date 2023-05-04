@@ -41,9 +41,8 @@
 
  - Wi-Fi offload team lead;
  - Designed and implemented smoothless LTE to Wi-Fi offloading;
- - Designed and implemented security workflow for Wi-Fi hotspots,
-   including implementation of TrustZone kernel module and trustlet,
-   openssl RSA engine;
+ - Designed and prototyped security workflow for Wi-Fi hotspots,
+   including implementation of TrustZone kernel module and trustlet;
  - Prototyped inbound roaming feature.
 
  Technologies: EAP-AKA, EAP-TLS, Passpoint 2.0, Radius, Radsec,
