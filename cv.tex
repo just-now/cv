@@ -1,0 +1,236 @@
+% Created 2023-06-08 Thu 23:29
+% Intended LaTeX compiler: pdflatex
+\documentclass[8pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\pagenumbering{gobble}
+\usepackage{array, xcolor, bibentry}
+\usepackage[margin=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.78\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+\renewcommand{\hline}{}
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{5pt}{5pt}
+\renewcommand{\maketitle}{\begin{center}{\LARGE\bfseries \theauthor} \vspace{5pt} \smallbreak \thetitle \end{center}}
+\author{Anatoliy Bilenko}
+\date{\today}
+\title{}
+\hypersetup{
+ pdftitle={Anatoliy Bilenko},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.5.5)},
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+
+
+\section*{CONTACTS}
+\label{sec:org2d18999}
+\begin{itemize}
+\item anatoliy.bilenko@gmail.com
+\item \href{https://www.linkedin.com/in/anatoliy-bilenko-4367055/}{linkedin}
+\item Location: Europe
+\end{itemize}
+
+\section*{BACKGROUND}
+\label{sec:org9d23cda}
+\begin{itemize}
+\item Linux systems programmer with some experience in Linux kernel;
+\item Leading and mentoring people;
+\item Fluent in C/C++, assembly, bash, python, Go;
+\item Distributed systems;
+\item Telecommunications and protocols;
+\item Discrete event simulation;
+\item Solution-wide performance debugging;
+\item Statistics, Data mining, Machine Learning, Computer vision, DSP;
+\item Open source contributor.
+\end{itemize}
+
+
+\section*{FreedomFI/Nova-Labs -- LEAD SWE, ARCHITECT}
+\label{sec:org9087acf}
+\section*{Feb 2022 - May 2023}
+\label{sec:org378e4ca}
+
+\url{https://github.com/magma/}
+
+Lead development of Wi-Fi offload solution.
+Involved into develpement of telecom core frameworks such as magma
+designed for enabling experienced users to run own mini-telecom
+operator.
+
+Software product design, including requirements gathering, use-case
+definition, milestone planning, and integration. Communication of
+technical decisions, development plans to software developers,
+product management.
+
+\begin{itemize}
+\item Wi-Fi offload team lead;
+\item Designed and implemented smoothless LTE to Wi-Fi offloading;
+\item Designed and prototyped security workflow for Wi-Fi hotspots,
+including implementation of TrustZone kernel module and trustlet;
+\item Prototyped inbound roaming feature.
+\end{itemize}
+
+Technologies: EAP-AKA, EAP-TLS, Passpoint 2.0, Radius, Radsec,
+Diameter, M-TLS, Wi-Fi, sWX, S8, S5, S11, Gx, Gy, OpenWiFi TIP,
+Radiator, Radsecoroxy, OpenWRT, TrustZone, openssl, Open vSwitch,
+OpenFlow, AWS, docker, k8s, HashiCorp vault (CA), YateHSS, C, C++,
+Go, python.
+
+
+\section*{SEAGATE/XYRATEX -- LEAD SWE, ARCHITECT}
+\label{sec:org223daaa}
+\section*{2011-2022}
+\label{sec:org5c9ee24}
+
+Distributed object store. Remote work, globally distributed team.
+
+\url{https://github.com/Seagate/cortx-motr}
+
+Involved into develpement of distributed object storage system
+designed for great efficiency, massive capacity, and high
+HDD-utilization.
+
+Technologies: C, asm, python, bash, various cluster hardware, network
+	      and storage controllers such as Mellanox Connectx-5,
+	      Seagate Exos X 5U84, Supermicro TR4, PCI busses, HBAs,
+	      simd.
+
+\begin{itemize}
+\item 2020 - 2022: Distributed transaction management team lead (4 engineers);
+\item 2019 - 2020: Performance team lead (8-15 engineers);
+\item 2018 - 2022: A part of architectural group. Software product
+design, including requirements gathering, use-case definition,
+milestone planning, and integration with complementary
+subsystems. Communication of technical decisions, development plans
+to software developers, team leads, product management.
+\item RAID NxPxK library design and implementation;
+\item Distributed configuration component implementation;
+\item Preemptive locking primitive design and implementation;
+\item "Parity-math" component as a part of SNS-repair (from HLD to TESTING);
+\item HLD and DLD development of "rpc-layer" component;
+\item Misc. tasks from CODE to TESTING like lib improvement, etc;
+\item Transaction engine component design and implementation;
+\item Designed implementation plan for the transaction engine integration
+(overall work was around \textasciitilde{}5k hours);
+\item Designed and implemented btree persistent structure;
+\item Designed approaches (based on existing but with significant project
+specifics) allowing to increase parallelism level for storage
+structures of transaction engine;
+\item Performance tuning and optimization in different contexts: from
+application to system-wide;
+\item Page Daemon design and implementation;
+\item Designed implementation plan for the Page Daemon component
+integration (an alternative was to rewrite the whole project code
+base);
+\item Distributed transaction manager detailed level design (high level
+design was proposed by the architect);
+\item Different kinds of library algorithms and improvements mostly
+related to parallel and asynchronous programming (ex:
+parallel\_for() implementation, async termination implementation,
+etc);
+\item Different kinds of scientific work like system performance modeling
+(queuing theory);
+\item Designed and implemented distributed profiler;
+\item Designed and lead implementation of the cluster-wide performance
+harness (telemetry).
+\item Data/metadata corruption debugging in distributed system.
+\end{itemize}
+
+
+\section*{VIEWDLE, Kiev -- SENIOR SWE (CV/DSP)}
+\label{sec:org1ccafff}
+\section*{2009-2011}
+\label{sec:orga46a4f7}
+
+Face detection and recognition engine. VIEWDLE was bought by
+Google/Motorola Mobility.
+
+Technologies: C++, matlab, opencl, opencv, intel tbb, sse, neon, linux.
+
+
+\section*{LUXOFT, Odessa --  SENIOR EMBEDDED ENGINEER}
+\label{sec:org5c2e852}
+\section*{2007-2009}
+\label{sec:orgbaa0141}
+
+Emergency Call controller.
+
+Technologies: C++, RTOS, VME, QNX.
+
+
+\section*{LUXOFT, Odessa -- SWE}
+\label{sec:org78913d7}
+\section*{2006-2007}
+\label{sec:orgf9de538}
+
+Graphical rasterizer library.
+
+Technologies: C++, RTOS, VME, QNX.
+
+\section*{HARDWARE PROJECTS}
+\label{sec:orgdd46fc1}
+\section*{2002-2006}
+\label{sec:org6bdc062}
+
+\begin{itemize}
+\item This part of CV does not include precise and full list of completed
+projects;
+\item Hardware-related experience mostly in airspace and
+telecommunication;
+\item Software and hardware for sensors and actuators, digital engine
+control systems, telemetry systems in airspace domain.
+\item Software and hardware components for telephone station switch.
+
+Technologies: AVR, LPC2100, ATSAM4LC4C, MPC555, Altera Cyclone IV
+EP4CE6, Xilinx Spartan 3E XC3S500E, PCB manufacturing.
+\end{itemize}
+
+\section*{PUBLICATIONS}
+\label{sec:orgc6c3e70}
+\begin{itemize}
+\item US PATENT · \href{https://patents.google.com/patent/US20230035666A1}{US390999147} · ANOMALY DETECTION IN STORAGE SYSTEMS · Issued Feb 2, 2023;
+\item US PATENT · \href{https://patents.google.com/patent/US11442715B1/en?inventor=Anatolii+Bilenko}{US11442715B1} · ASYNCHRONOUS FRAMEWORK · Issued Sep 13, 2022;
+\item PUBLICATION · \href{https://scholar.google.com/citations?view\_op=view\_citation\&hl=th\&user=j5r-Y28AAAAJ\&citation\_for\_view=j5r-Y28AAAAJ:Y0pCki6q\_DkC}{GRAPH PARTITIONING METHODS FOR COMPUTATIONS IN RECONFIGURABLE SYSTEMS} · Issued 2012;
+\item For full list of publications follow to \href{https://scholar.google.com/citations?user=j5r-Y28AAAAJ\&hl=th}{Google Scholar} or PhD thesis \href{https://github.com/just-now/cv/blob/main/aref.pdf}{annotation}.
+\end{itemize}
+
+\section*{EDUCATION}
+\label{sec:orgc2176b5}
+\begin{itemize}
+\item Odessa National Polytechnic University, 2001 - 2007, Master of
+Science in EECS. GPA: 98/100. Thesis: "Classification of wavelet
+functions";
+\item Odessa National Polytechnic University, 2008 - 2013,
+PhD in EECS. \href{https://github.com/just-now/cv/blob/main/aref.pdf}{Thesis}: "Methods of performance increase in reconfigurable
+computing systems by means of new algorithmic and structural
+organization".
+\end{itemize}
+\section*{COMMUNITY}
+\label{sec:org6b9de50}
+\begin{itemize}
+\item \href{https://www.youtube.com/watch?v=FFTi2XNFb7A}{Seagate | Meet the Architect – CORTX Observability with Anatoily Bilenko};
+\item \href{https://www.youtube.com/watch?v=ujyIsCt6bbM}{Seagate | Meet the Architect – CORTX DTM: Resiliency in Distributed Systems};
+\item Provided lectures on "Processor design" and "\href{https://github.com/just-now/slisp/}{Compiler design}" read
+in Odessa National Polytechnic University, 2009-2015, 2021-2023.
+My role: volunteer, leader, organizer.
+\end{itemize}
+\end{document}
